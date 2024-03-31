@@ -1,3 +1,5 @@
+import HeroForm from "@/components/forms/HeroForm";
+
 export default function Home() {
   return (
     <main>
@@ -10,13 +12,7 @@ export default function Home() {
             Manage your vaults and your data in one place
           </h2>
         </div>
-        <form className="inline-flex items-center shadow-lg shadow-black/80">
-          <span className="bg-white py-4 pl-4">vaultree.of/</span>
-          <input type="text" className="py-4" placeholder="username" />
-          <button type="submit" className="bg-teal-300 py-4 px-5">
-            Join for free
-          </button>
-        </form>
+        <HeroForm/>
       </section>
     </main>
   );

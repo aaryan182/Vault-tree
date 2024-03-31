@@ -12,7 +12,7 @@ export default async function Header() {
           <Link href={"/"}>
             <img
               src="/logo.png"
-              class="rounded-full w-20 h-20 object-cover filter drop-shadow-md"
+              className="rounded-full w-20 h-20 object-cover filter drop-shadow-md"
               alt="Vaultree Logo" 
             />
           </Link>
